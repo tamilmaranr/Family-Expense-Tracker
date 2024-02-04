@@ -1,0 +1,44 @@
+/* App.css or another stylesheet */
+
+.navbar {
+  background-color: #000000;
+  color: white;
+  padding: 10px;
+  
+
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding-left: 70%;
+  padding-bottom: 0%;
+}
+.trackbox
+{
+  padding-right: 80%;
+  width: 150px;
+  height: 80px;
+}
+
+.nav-item {
+  margin: 0;
+  padding-bottom: 0%;
+  margin-top: 30px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #555;
+}
+
